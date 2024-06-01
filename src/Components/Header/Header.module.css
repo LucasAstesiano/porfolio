@@ -1,0 +1,76 @@
+.header{
+    background-color: brown;
+    padding: 1px;
+    border-radius: 25px;
+    width: 95%;
+    box-shadow: 1px 4px 2px 4px rgb(24, 23, 23);
+    position:fixed;
+    z-index: 1;
+    transition: 0.5s;
+}
+.header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.header li{
+    cursor: pointer;
+}
+.header li:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.header_desplegable{
+    width: 150px;
+    height: 38px;
+    position: fixed;
+    margin-left: -50px;
+}
+.header_desplegable li{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
+}
+.header_desplegable li:hover{
+    background-color: #474747;
+    color: brown;
+}
+.header_desplegable li a:hover{
+    color: brown;
+    transition: 0.5s;
+}
+.header_desplegable li:first-child{
+    z-index: 1;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #242424;
+    border-radius: 8px;
+    color: white;
+}
+.header_desplegable li:first-child:hover{
+    box-shadow: 1px 1px 1px 1px brown;
+}
+
+.header_desplegable li:nth-child(2){
+    top:-44px; 
+    border-radius: 8px;
+    background-color: #242424;
+}
+.header_desplegable li:nth-child(3){
+    top:-86px; 
+    border-radius: 8px;
+    background-color: #242424;
+}
+.header_desplegable li:last-child {
+    top: -120px; 
+    border-radius: 8px;
+    background-color: #242424;
+}
+.header_desplegable:hover li {
+    top: 0px;
+    border-radius: 8px;
+    background-color: #242424;
+}
