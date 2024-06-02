@@ -119,7 +119,6 @@ export const Home = () => {
             <h2>Gracias por visitar mi pagina. <br /> Espero tu mensaje.</h2>
           </div>
         </div>
-
       </section>
     </>
   )
